@@ -8,35 +8,35 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
-		title: 'Sistem Absensi Kelas',
-		description: 'Aplikasi pencatatan kehadiran siswa dengan rekap otomatis per bulan.',
-		stack: 'SvelteKit',
+		title: 'PJBL: YAYUBI',
+		description: 'PJBL Semester 1 membuat web catering.',
+		stack: 'PHP',
 		year: 2026,
-		href: 'https://github.com/nama-kamu/absensi'
+		href: 'https://github.com/UbayDilla28/PJBL-Yayubi'
 	},
 	{
-		title: 'Landing Page UKM',
-		description: 'Halaman profil organisasi sekolah dengan formulir pendaftaran anggota.',
-		stack: 'Tailwind',
+		title: 'Front-End testing aja',
+		description: 'Intinya ini testing front-end.',
+		stack: 'CSS',
 		year: 2026,
-		href: 'https://github.com/nama-kamu/ukm'
+		href: 'https://github.com/UbayDilla28/Ubay-FE2026'
 	},
 	{
-		title: 'Dashboard Jaringan',
-		description: 'Pemantauan status perangkat lab sekolah secara real-time.',
-		stack: 'TypeScript',
+		title: 'Behind the Uniform',
+		description: 'Intinya kita bikin game VN.',
+		stack: 'Renpy',
 		year: 2026,
-		href: 'https://github.com/nama-kamu/dashboard'
+		href: 'https://github.com/UbayDilla28/Behind-the-Uniform'
 	}
 ];
 
 export const profile = {
-	bio: 'Saya suka membangun hal yang berguna dan terlihat rapi. Saat ini belajar SvelteKit dan TypeScript, sambil mengerjakan proyek kecil untuk sekolah dan komunitas.',
+	bio: 'Saya aslinya malas, tapi suka disuruh suruh bikin apa gitu jadinya ya gitulah.',
 	facts: [
-		{ label: 'FOKUS', value: 'Antarmuka web & sistem informasi' },
+		{ label: 'FOKUS', value: 'Front-end gas, Back-end nanti aja' },
 		{ label: 'STACK', value: 'SvelteKit · TypeScript · Tailwind' },
 		{ label: 'LOKASI', value: 'Indonesia' },
-		{ label: 'STATUS', value: 'Terbuka untuk kolaborasi' }
+		{ label: 'STATUS', value: 'Terbuka untuk mabar' }
 	],
 	skills: ['HTML', 'CSS', 'JavaScript', 'SvelteKit', 'Tailwind', 'Git']
 };
