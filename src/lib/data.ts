@@ -11,7 +11,7 @@ export const projects: Project[] = [
 		title: 'PJBL: YAYUBI',
 		description: 'PJBL Semester 1 membuat web catering.',
 		stack: 'PHP',
-		year: 2026,
+		year: 2025,
 		href: 'https://github.com/UbayDilla28/PJBL-Yayubi'
 	},
 	{
@@ -27,6 +27,13 @@ export const projects: Project[] = [
 		stack: 'Renpy',
 		year: 2026,
 		href: 'https://github.com/UbayDilla28/Behind-the-Uniform'
+	},
+	{
+		title: 'OOTS Portfolio',
+		description: 'Disuruh kakak kakak UDINUS buat bikin portofolio, yaudah ini dibikin aja.',
+		stack: 'SvelteKit',
+		year: 2026,
+		href: 'https://github.com/UbayDilla28/OOTS-PORTOFOLIO'
 	}
 ];
 

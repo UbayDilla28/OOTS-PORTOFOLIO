@@ -25,10 +25,10 @@
 	--line: #2b2b27;
 	--ink: #edece4;
 	--muted: #9c9c90;
-	--primary: #8aa4ff;
+	--primary: #86cecb;
 	--on-primary: #0c0c0b;
-	--success: #6ee7a0;
-	--danger: #fb8a8a;
+	--success: #137a7f;
+	--danger: #e12885;
 }
 
 @theme inline {
