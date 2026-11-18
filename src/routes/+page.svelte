@@ -514,7 +514,13 @@
 							target="_blank"
 							rel="noreferrer"
 							class="font-mono text-[11px] tracking-[1.1px] text-muted"
-							>SOCIAL · {copy[language].github}</a
+							>SOCIAL</a>
+						<a
+							href="https://github.com/UbayDilla28"
+							target="_blank"
+							rel="noreferrer"
+							class="font-mono text-[11px] tracking-[1.1px] text-muted"
+							>{copy[language].github}</a
 						>
 						<a
 							href="mailto:deepyhappy@gmail.com"
