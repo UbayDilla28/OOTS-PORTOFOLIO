@@ -510,7 +510,7 @@
 							{copy[language].projects.toUpperCase()}
 						</a>
 						<a
-							href="https://github.com/UbayDilla28"
+							href="https://instagram.com/uby.34"
 							target="_blank"
 							rel="noreferrer"
 							class="font-mono text-[11px] tracking-[1.1px] text-muted"
