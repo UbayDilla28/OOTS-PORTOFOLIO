@@ -4,9 +4,10 @@
 	type Props = {
 		project: Project;
 		index: number;
+		openProjectLabel: string;
 	};
 
-	let { project, index }: Props = $props();
+	let { project, index, openProjectLabel }: Props = $props();
 </script>
 
 <div class="flex flex-col gap-2.5 py-7">
@@ -20,7 +21,8 @@
 			<span class="font-mono text-[11px] tracking-[1.1px]">{project.year}</span>
 
 			{#if project.href}
-				<a href={project.href} aria-label="Buka {project.title}" class="text-primary">
+				<!-- eslint-disable-next-line svelte/no-navigation-without-resolve -->
+				<a href={project.href} aria-label="{openProjectLabel} {project.title}" class="text-primary">
 					<svg
 						width="16"
 						height="16"
